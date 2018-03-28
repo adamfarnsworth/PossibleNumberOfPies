@@ -71,7 +71,7 @@ void maxPies(int pumpkinPieCount, int applePieCount, std::vector<int> ingredient
 		}
 	}
 
-	// checking all possile combinations
+	// use this loop twice to get all possible pie combos
 	for (int i = pumpkinPieCount; i > 0; i--) {
 
 		// passing leftover ingredients for apple to use
